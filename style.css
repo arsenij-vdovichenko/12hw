@@ -1,0 +1,33 @@
+.timer {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  min-width: 70px;
+  padding: 15px 10px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, #4f46e5, #9333ea);
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.label {
+  margin-top: 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #666;
+  letter-spacing: 1px;
+}
